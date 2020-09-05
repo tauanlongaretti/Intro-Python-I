@@ -1,0 +1,3 @@
+I am learning Python.
+I am really enjoying it.
+Hopefully it doesn't get harder
