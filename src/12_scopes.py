@@ -1,3 +1,6 @@
+import os
+os.system("cls")
+
 # Experiment with scopes in Python.
 # Good reading: https://www.programiz.com/python-programming/global-local-nonlocal-variables
 
@@ -5,6 +8,7 @@
 x = 12
 
 def change_x():
+    global x
     x = 99
 
 change_x()
@@ -19,6 +23,7 @@ def outer():
     y = 120
 
     def inner():
+        nonlocal y
         y = 999
 
     inner()
